@@ -60,8 +60,8 @@ document
 // Changing Entire Logo
 const logo = document.querySelector('.nav__logo');
 const footerLogo = document.querySelector('.footer__logo');
-logo.setAttribute('src', '../starter/img/logo.png');
-footerLogo.setAttribute('src', '../starter/img/logo.png');
+logo.setAttribute('src', './img/logo.png');
+footerLogo.setAttribute('src', './img/logo.png');
 logo.style.transform = 'scale(1.4)';
 
 ///implementing Dark Mode
